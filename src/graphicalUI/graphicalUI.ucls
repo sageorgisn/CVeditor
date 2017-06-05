@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="true" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="graphicalUI.Main" project="CVEditorBy3D" 
+    file="/CVEditorBy3D/src/graphicalUI/Main.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="428" x="354" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="graphicalUI.CombinedTemplate" project="CVEditorBy3D" 
+    file="/CVEditorBy3D/src/graphicalUI/CombinedTemplate.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="585" width="511" x="-752" y="760"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="graphicalUI.FunctionalTemplate" project="CVEditorBy3D" 
+    file="/CVEditorBy3D/src/graphicalUI/FunctionalTemplate.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="549" width="515" x="-201" y="760"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="graphicalUI.ChronologicalTemplate" project="CVEditorBy3D" 
+    file="/CVEditorBy3D/src/graphicalUI/ChronologicalTemplate.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="549" width="547" x="354" y="760"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="graphicalUI.FunctionalTemplateEdit" project="CVEditorBy3D" 
+    file="/CVEditorBy3D/src/graphicalUI/FunctionalTemplateEdit.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="603" width="532" x="941" y="760"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="graphicalUI.ChronologicalTemplateEdit" project="CVEditorBy3D" 
+    file="/CVEditorBy3D/src/graphicalUI/ChronologicalTemplateEdit.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="603" width="564" x="52" y="-184"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="graphicalUI.PersonalInfoNotNeeded" project="CVEditorBy3D" 
+    file="/CVEditorBy3D/src/graphicalUI/PersonalInfoNotNeeded.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="158" x="1513" y="760"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="graphicalUI.CombinedTemplateEdit" project="CVEditorBy3D" 
+    file="/CVEditorBy3D/src/graphicalUI/CombinedTemplateEdit.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="639" width="528" x="656" y="-184"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
